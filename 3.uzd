@@ -1,0 +1,5 @@
+a = int(input("Līdz kuram skaitlim: "))
+b = 0
+for i in range(1, a+1):
+  b = i + b
+print("Summa ir", b)
